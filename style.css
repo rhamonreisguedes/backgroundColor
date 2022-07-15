@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+header{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 2.0rem;
+    border-bottom: 1px solid gray;
+}
+
+ul{
+    width: 50%;
+    margin: auto;
+}
+
+a{
+    color: black;
+}
+
+#logo{
+    float: left;
+}
+
+
+li{
+    float: right;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+
+main{
+    clear: both;
+    text-align: center;
+    background-color: white;
+    padding: 11.7%;
+    /* height: 1000px; */
+}
+
+
+#bgcolor-text{
+    font-size: 4.0rem;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#color-btn{
+    border: 3px solid black;
+    padding: 20px;
+    margin: 50px;
+    font-size: 2.0rem;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: white;
+}
+
+/*Para Dispositivos de 980px ou menos*/
+@media screen and (max-width: 980px){
+    header{
+        font-size: 1.5rem;
+        padding-top: 15px;
+        padding-bottom: 40px;
+    }
+    #bgcolor-text{
+        font-size: 3.0rem;
+    }
+    #color-btn{
+        font-size: 1.5rem;
+    }
+    ul{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+/*Para Dispositivos de 768px ou menos*/
+@media screen and (max-width: 768px){
+    header{
+        font-size: 1.0rem;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    #bgcolor-text{
+        font-size: 1.5rem;
+    }
+    #color-btn{
+        font-size: 1.0rem;
+    }
+    ul{
+        width: 60%;
+        margin: auto;
+    }
+    #color-btn{
+        padding: 10px;
+    }
+}
+
+/*Para Dispositivos de 480px ou menos*/
+@media screen and (max-width: 480px){
+    header{
+        font-size: 1.0rem;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    #bgcolor-text{
+        font-size: 1.0rem;
+    }
+    #color-btn{
+        font-size: 1.0rem;
+    }
+    ul{
+        width: 90%;
+        margin: auto;
+    }
+    li{
+        padding: 0 10px;
+    }
+    #color-btn{
+        padding: 5px;
+    }
+}
+
+
+/* Para Dispositivos de 320px ou menos */
+@media screen and (max-width: 320px){
+    header{
+        font-size: 0.8rem;
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+    #bgcolor-text{
+        font-size: 0.8rem;
+    }
+    #color-btn{
+        font-size: 0.8rem;
+    }
+    ul{
+        width: 90%;
+        margin: auto;
+    }
+    li{
+        padding: 0 10px;
+    }
+
+    #color-btn{
+        padding: 5px;
+    }
+}
